@@ -23,7 +23,7 @@ After that the process consists of:
 * Enter: "https://www.google.com" (without quotes, copy paste, use https!)
 * Click "Save"
 
---[Client ID & Client Secret]-- Write down your **Client ID** and **Client secret**. You will need these later on. If you lose them you can get them back in the credentials page.
+_**--[Client ID & Client Secret]--**_ Write down your **Client ID** and **Client secret**. You will need these later on. If you lose them you can get them back in the credentials page.
 
 ## Get access to "Google Devices Access Console"
 #### Register and pay the fee
