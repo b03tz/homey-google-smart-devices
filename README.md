@@ -38,9 +38,9 @@ After that the process consists of:
 * Enable events (this is important!!)
 * Finally click "Create project"
 * When your project is created, open it and make note of the Pub/Sub topic; it will look like this: projects/sdm-prod/topics/enterprise-A_RANDOM_ID_HERE
-* --[Topic name]-- Copy that entire topic, write it down as your **Topic name**
+* _**--[Topic name]--**_ Copy that entire topic, write it down as your **Topic name**
 * This page also shows your "**Project ID**" on the top
-* --[Project ID]-- copy that and write it down as your **Project ID**
+* _**--[Project ID]--**_ copy that and write it down as your **Project ID**
 
 ## Link your account
 Now it's time to link your account so that your smart device events will be published to Google's pub/sub servers.
@@ -57,7 +57,7 @@ Now it's time to link your account so that your smart device events will be publ
 * Click advanced: "Continue to whatever (unsafe)"
 * In the consent screen click "Allow"
 * You will be redirect back to Google with an URL that looks like this: https://www.google.com/?code=4/A_BIG_LONG_CODE_HERE&scope=https://www.googleapis.com/auth/sdm.service
-* --[Authorization code]-- Copy A_BIG_LONG_CODE_HERE (which of course is a random access code, we call this your "**Authorization code**")
+* _**--[Authorization code]--**_ Copy A_BIG_LONG_CODE_HERE (which of course is a random access code, we call this your "**Authorization code**")
 
 ## Activate your PULL subscription
 * Visit: https://console.cloud.google.com/cloudpubsub/subscription/create
@@ -69,7 +69,7 @@ Now it's time to link your account so that your smart device events will be publ
 * Don't change any other settings
 * Click create at the bottom
 * After you are done creating this topic you will have a subscription name under "Subscription details"
-* --[Subscription name]-- Write that down as your "**Subscription name**", you will need this.
+* _**--[Subscription name]--**_ Write that down as your "**Subscription name**", you will need this.
 
 #### Last but not least
 We need to create a "Google service account" that acts as the Identity that accesses your secure API. 
@@ -87,7 +87,7 @@ We need to create a "Google service account" that acts as the Identity that acce
 * Select key type "JSON" and click "Create"
 * It will now download a .json file
 * Open the downloaded file with notepad, right click on it in your explorer "Open with" and select notepad
-* --[Credentials file]-- Copy the contents of this file, these are your credentials. We will call it your "**Credentials file**"
+* _**--[Credentials file]--**_ Copy the contents of this file, these are your credentials. We will call it your "**Credentials file**"
 
 ## You are done, pat yourself on the back and grab another cup of coffee
 Finally you are left with 5 important credentals: 
